@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/hands" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Интуитивному восприятию внешнего наблюдателя противоречит, что талибы, от которых в панике бегут западные войска и светские афганцы, являются с точки зрения джихадистов «прозападными силами». Но теракты в Кабуле в четверг, как сами представители ИГИЛ заявляют, нацелены не только против американцев и других западных граждан, но и против победивших талибов — на своих веб-ресурсах группировка обвиняет тех в «сотрудничестве с США» и «содействии в эвакуации западных шпионов».
+
+В те годы, когда конфликт в Афганистане проходил по водоразделу между, как ранее выразился один политолог в беседе с NEWS.ru, «афганцами светскими и афганцами бородатыми», западная коалиция и их местные союзники не делали различий, кто именно совершает нападения на американских военных и афганских школьных учителей. Они были для Запада одинаково «бородатыми». Для внешних наблюдателей часто оставалось за кадром, что происходит на территориях, где правительственная армия не осуществляет контроль.
+
+Но зная эти вещи, вчерашние теракты в Кабуле не выглядят настолько шокирующими. Например, талибы прямо в день взятия ими афганской столицы, 15 августа, нашли и расстреляли сидевшего в правительственной тюрьме главаря так называемого «Исламского государства» Центральной Азии Абу Омара Хорасани. Как известно из биологии, внутривидовая борьба является самой беспощадной." />
+
+        </androidx.core.widget.NestedScrollView>
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
